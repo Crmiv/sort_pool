@@ -1,0 +1,17 @@
+the bad time_comple... is O(n^2)
+the equal time_comple... is O(nlogn)
+prove:
+T(n)<= cn + 2T(n/2)
+<= 2cn + 4T(n/4)
+...
+..
+<=cnlogn + nT(1) = O(nlogn)
+
+LEMMA:
+exist a constant k make every n>=2 let T(n) <= k*n*logn
+
+and quicksort is non_stable
+
+some deformation:
+rand quicksort:
+middle value quicksort:   Mid {first,middle,last}
