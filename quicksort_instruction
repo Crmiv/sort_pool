@@ -15,3 +15,11 @@ and quicksort is non_stable
 some deformation:
 rand quicksort:
 middle value quicksort:   Mid {first,middle,last}
+
+THEOREM:
+:sort n elements,the judgement-tree the height at least log(n!)+1
+
+prove 
+sort n element you can get n! sequence and 'n'height bin-tree at most have 2^(n-1) node ->...
+
+
